@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   --Dark-cyan: hsl(185, 75%, 39%);
   --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
@@ -6,14 +12,26 @@
 }
 
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
 body {
   font-size: 1.1rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--Dark-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  margin: 1.25rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
