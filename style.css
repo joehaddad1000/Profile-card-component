@@ -24,13 +24,18 @@ body {
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: white;
-  margin: 1.25rem;
+  margin: 1.5rem;
+  border-radius: .9rem;
 }
+
+.bg {
+  border-top-left-radius: .9rem;
+  border-top-right-radius: .9rem;
+  height: 10.9375rem;
+  background: url("/images/bg-pattern-card.svg");
+}
+
+
 
 .attribution {
   font-size: 11px;
