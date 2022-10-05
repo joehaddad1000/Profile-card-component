@@ -34,6 +34,10 @@ main {
   background-color: white;
   height: 25rem;
 }
+h1{
+  font-size: 1.3rem;
+  display: inline;
+}
 
 .bg {
   border-top-left-radius: .9rem;
