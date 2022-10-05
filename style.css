@@ -22,20 +22,37 @@ body {
   flex-direction: column;
   height: 100vh;
 }
+main {
+  margin: 1rem;
+}
 
 .container {
-  margin: 1.5rem;
   border-radius: .9rem;
+  width: 23.4375rem;
+  max-width: 23.4375rem;
+  background-color: white;
+  height: 400px;
+  max-height: 400px;
 }
 
 .bg {
   border-top-left-radius: .9rem;
   border-top-right-radius: .9rem;
-  height: 10.9375rem;
+  height: 9.5rem;
   background: url("/images/bg-pattern-card.svg");
 }
 
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.name img{
+  border-radius: 22.5rem;
+  border: .375rem white solid;
+}
 
 .attribution {
   font-size: 11px;
